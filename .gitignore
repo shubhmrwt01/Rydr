@@ -1,0 +1,23 @@
+# Client
+client/node_modules/
+client/.expo/
+client/dist/
+client/android/app/build/
+client/ios/build/
+
+# Server
+server/node_modules/
+
+# Env files
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
