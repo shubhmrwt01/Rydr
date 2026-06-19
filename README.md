@@ -17,7 +17,7 @@
 
 ---
 
-[![Download App](https://img.shields.io/badge/⬇️_Download_App-2563EB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/shubhmrwt01/Rydr/releases/tag/Rydrv1.0.0)
+[![Download App](https://img.shields.io/badge/⬇️_Download_App-2563EB?style=for-the-badge&logo=android&logoColor=white)](https://github.com/shubhmrwt01/Rydr/releases/tag/Rydr)
 &nbsp;
 [![Report Bug](https://img.shields.io/badge/🐛_Report_Bug-DC2626?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shubhmrwt01/Rydr/issues)
 &nbsp;
@@ -199,7 +199,7 @@ EXPO_PUBLIC_SOCKET_URL=https://rydr-o2d5.onrender.com
 
 <div align="center">
 
-[![Download APK](https://img.shields.io/badge/⬇️_Download_APK-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/shubhmrwt01/Rydr/releases/tag/Rydrv1.0.0)
+[![Download APK](https://img.shields.io/badge/⬇️_Download_APK-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/shubhmrwt01/Rydr/releases/tag/Rydr)
 &nbsp;&nbsp;
 [![Wake Server](https://img.shields.io/badge/⚡_Wake_Server-Render-7C3AED?style=for-the-badge&logo=render&logoColor=white)](https://rydr-o2d5.onrender.com)
 
