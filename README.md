@@ -3,17 +3,19 @@
 <p align="center">
   <img src="./Rydr_banner.png" alt="Rydr Banner" width="90%" />
 </p>
-<h1>🚘 Rydr</h1>
+<h1>Rydr</h1>
 
 <p><em>Ride Smart. Ride Fast.</em></p>
 
 <p>A real-time ride booking app where customers book rides on a live map<br/>and riders receive instant ride requests.</p>
 
 ![React Native](https://img.shields.io/badge/React%20Native-149ECA?style=for-the-badge&logo=react&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-5C4B99?style=for-the-badge&logo=expo&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-2563EB?style=for-the-badge&logo=typescript&logoColor=white)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio)
 ![Node.js](https://img.shields.io/badge/Node.js-15803D?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB%20Atlas-0F766E?style=for-the-badge&logo=mongodb&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-5C4B99?style=for-the-badge&logo=expo&logoColor=white)
+
 
 ---
 
@@ -37,6 +39,45 @@
 | ✅  | End-to-end ride lifecycle: Create → Offer → Accept → In Progress → Completed |
 
 ---
+
+## 🎥 Real-Time Ride Lifecycle Demo
+
+<div align="center">
+
+### 📱 Customer App ↔ 🏍️ Rider App
+
+https://github.com/user-attachments/assets/ae40e496-4a72-4db9-ab44-a6ba618c1dc4
+
+</div>
+
+### 🔄 End-to-End Ride Flow
+
+1. Customer selects pickup & destination
+2. Ride request is broadcast in real time via Socket.IO
+3. Rider instantly receives the request
+4. Rider accepts the ride
+5. Live GPS tracking updates both devices
+6. OTP verification before trip start
+7. Ride progresses with real-time status updates
+8. Ride successfully completed
+
+### ✨ Highlights
+
+- Real-time bidirectional communication using Socket.IO
+- Live rider location streaming
+- Separate Customer and Rider applications
+- Secure JWT authentication
+- Complete ride lifecycle management
+
+---
+## Architecture
+
+<div align="center">
+  <img src="./docs/architecture.png" width="100%" />
+</div>
+
+---
+
 
 ## 🛠️ Tech Stack
 
@@ -97,44 +138,8 @@ Rydr/
 
 ---
 
-## Architecture
 
-<div align="center">
-  <img src="./docs/architecture.png" width="100%" />
-</div>
 
----
-
-## 🎥 Real-Time Ride Lifecycle Demo
-
-<div align="center">
-
-### 📱 Customer App ↔ 🏍️ Rider App
-
-https://github.com/user-attachments/assets/ae40e496-4a72-4db9-ab44-a6ba618c1dc4
-
-</div>
-
-### 🔄 End-to-End Ride Flow
-
-1. Customer selects pickup & destination
-2. Ride request is broadcast in real time via Socket.IO
-3. Rider instantly receives the request
-4. Rider accepts the ride
-5. Live GPS tracking updates both devices
-6. OTP verification before trip start
-7. Ride progresses with real-time status updates
-8. Ride successfully completed
-
-### ✨ Highlights
-
-- Real-time bidirectional communication using Socket.IO
-- Live rider location streaming
-- Separate Customer and Rider applications
-- Secure JWT authentication
-- Complete ride lifecycle management
-
----
 
 ## 📱 Screenshots
 
